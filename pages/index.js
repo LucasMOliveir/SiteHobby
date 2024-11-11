@@ -1,10 +1,10 @@
 import { useState } from 'react'
+import Banner from "../componentes/Banner";
 
 function Home(){
     return (
         <div>
-            <h1>Home 1</h1>
-            <Contador />
+            <Banner />
         </div>
     ) 
 }

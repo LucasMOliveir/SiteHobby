@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import Banner from "../componentes/Banner";
+import Form from "../componentes/Form";
 
 function Home(){
     return (
         <div>
             <Banner />
+            <Form  Title="Calculadora de juros ao ano."/>
         </div>
     ) 
 }
